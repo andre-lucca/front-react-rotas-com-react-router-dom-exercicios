@@ -71,7 +71,29 @@
 Obs.: Em caso de dúvidas, lembre-se de assistir os vídeos de orientação.
 
 ---
+### Dicas
+Não sabe por onde começar? Que tal começar olhando o que já existe dentro do projeto, após isso pense no projeto final e defina pequenas tarefas para chegar a esse resultado.
 
+Nos exercícios será necessário:
+
+- Importar itens do Json
+- Importar imagem
+- Utilizar evento de clique
+- Buscar itens
+- Listar itens
+- Criar e Manipular estado
+- Baixar a biblioteca de rotas
+- Enviar o usuário pra outra página 
+- Configurar arquivo de rota
+- Importar Component na rota
+- Definir o caminho de cada rota e seu respectivo component
+- Utilizar BrowserRouter no index
+- Importar o component de rota no index
+- Criar Component de proteção de rota
+- Informar parametros de rota (id)
+- Definir as rotas livres e as rotas protegidas
+
+---
 Preencha a checklist para fazer os exercícios:
 
 -   [ ] Fazer o fork do repositório para sua conta

@@ -29,6 +29,16 @@ ul {
   list-style: none;
 }
 
+ul:has(li:hover) li:not(:hover) {
+  opacity: .6;
+  scale: .98;
+}
+
+li {
+  transition-property: opacity, scale;
+  transition-duration: .3s;
+}
+
 .teacher-card {
   display: flex;
   flex-direction: column;
@@ -39,6 +49,7 @@ ul {
   width: 200px;
   height: 236px;
 
+  cursor: pointer;
   border-radius: 8px;
   background-color: #DA0175;
 }
@@ -46,6 +57,7 @@ ul {
 .profile-image {
   width: 140px;
 
+  border: 4px solid #fff;
   border-radius: 50%;
 }
 

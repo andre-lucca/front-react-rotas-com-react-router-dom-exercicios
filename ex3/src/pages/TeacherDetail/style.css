@@ -1,0 +1,93 @@
+.container-teacher-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 32px;
+
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  scale: 1.02;
+}
+
+.logo {
+  width: 155px;
+  margin-bottom: 93px;
+}
+
+.teacher-detail-card-container {
+  width: 467px;
+  height: 562px;
+
+  border-radius: 16px;
+  background-color: #DA0175;
+}
+
+.detailed-content {
+  box-sizing: border-box;
+  margin: 0 54px;
+  margin-top: 25px;
+
+  text-align: center;
+}
+
+.detailed-content>img {
+  width: 177px;
+
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.detailed-content h1 {
+  margin-bottom: 0;
+
+  font-size: 28px
+}
+
+.detailed-content h1+p {
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+.detailed-content hr {
+  border: none;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.detailed-content h2 {
+  font-size: 22px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.detailed-content h2+p {
+  max-height: 110px;
+  padding-right: 5px;
+
+  font-size: 14px;
+  text-align: justify;
+
+  overflow-y: scroll;
+}
+
+.detailed-content h2+p::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.detailed-content h2+p::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(255 255 255 / .6);
+}
